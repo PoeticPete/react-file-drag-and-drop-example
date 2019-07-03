@@ -19,8 +19,8 @@ export function FileDropzone(props) {
       <input style={{height: "100%"}} {...getInputProps()}  />
       {
         isDragActive ?
-          <p>Drop the files here ...</p> :
-          <p>Drag 'n' drop a file here, or click to select a file</p>
+          <h2>Drop the files here ...</h2> :
+          <h2>Drag 'n' drop a file here, or click to select a file</h2>
       }
     </div>
   )

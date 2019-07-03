@@ -49,7 +49,9 @@ class App extends React.Component {
           fileCallback={this.onFileInput} 
           style={{
             backgroundColor: this.state.fileInputColor, 
-            height: "25vh"
+            height: "25vh",
+            display: "flex",
+            alignItems: "center",
           }}
         />
         { this.state.currFile && <img src={this.state.currFile}/> }
